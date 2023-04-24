@@ -1,0 +1,221 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Боді */
+.body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: var(--color-white);
+}
+.header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+
+/* Логотип */
+.web-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #2e2f42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.17;
+  color: var(--color-grey);
+  color: var(--color-iris);
+}
+.menu-list {
+  color: var(--color-grey);
+}
+
+.menu-list:hover,
+.menu-list:focus {
+  color: #404bbf;
+}
+
+/* Адреса */
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.adress-list {
+  color: #434455;
+}
+.adress-list:hover,
+.adress-list:focus {
+  color: #404bbf;
+}
+
+.section {
+  background-color: var(--color-grey);
+  line-height: 1.07;
+}
+/* Hero */
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  background: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+}
+/* Кнопка */
+.button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+.button:hover,
+.button:focus {
+  background: #404bbf;
+  cursor: pointer;
+}
+/* Portfolio Button */
+.button-list {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+
+.button-list:hover,
+.button-list:focus {
+  background: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
+.company-items title {
+  color: var(--color-grey);
+}
+.items {
+  color: var(--color-grey);
+  background-color: #ffffff;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+/* Про компанію */
+.company-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+/* Приклади робіт */
+.title-work {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--color-grey);
+}
+
+/* Наша команда */
+.our-team {
+  background-color: #f4f4fd;
+  line-height: 1.11;
+}
+/* text-align: center; */
+.list-work {
+  background-color: #ffffff;
+}
+.image {
+}
+.img {
+}
+.text {
+  line-height: 1.5;
+  color: var(--color-slate);
+}
+/* Футер */
+.footer {
+  background: #2e2f42;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+web-logo-footer {
+  color: var(--color-iris);
+}
