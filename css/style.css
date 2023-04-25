@@ -103,7 +103,7 @@ section {
 .menu {
   display: flex;
   align-items: center;
-  padding: 24px 0 24px 
+  padding: 24px 0 24px;
 }
 
 .logo {
@@ -239,7 +239,7 @@ section {
   gap: 24px;
   margin-bottom: 72px;
   justify-content: center;
-  padding: 24px 0 ;
+  padding: 24px 0;
 }
 .main-section{
   padding: 96px 0 120px;
