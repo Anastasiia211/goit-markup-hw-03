@@ -288,12 +288,9 @@ padding: 12px 24px;
   background: #404bbf;
   color: #ffffff;
   cursor: pointer;
-}
-
-.button-list:hover,
-.button-list:focus{
   border: 1px solid transparent;
 }
+
 
 
 .items {
