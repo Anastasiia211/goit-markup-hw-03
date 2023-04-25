@@ -35,6 +35,7 @@ h5,
 h6,
 p {
   margin: 0;
+   margin-bottom: 72px;
 }
 ul {
   margin-top: 0;
@@ -98,6 +99,7 @@ section {
 .nav-menu {
   display: flex;
   align-items: center;
+  padding: 24px 0 ;
 }
 
 .menu {
@@ -107,13 +109,14 @@ section {
 
 .logo {
   margin-right: 76px;
-  padding: 24px 0 ;
   
   
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
+  
 }
+
 .adress-item {
   display: flex;
 }
@@ -371,7 +374,7 @@ padding: 12px 24px;
 
   /* Приклади робіт */
   .title-work {
-     margin-bottom: 72px; 
+    margin-bottom: 72px; 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11px;
