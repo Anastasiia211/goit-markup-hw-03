@@ -103,11 +103,12 @@ section {
 .menu {
   display: flex;
   align-items: center;
-  padding: 24px 0 24px;
 }
 
 .logo {
   margin-right: 76px;
+  padding: 24px 0 ;
+  
   
 }
 .menu-item:not(:last-child) {
