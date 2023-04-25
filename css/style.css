@@ -349,15 +349,15 @@ border-radius: 4px;
 
   /* Приклади робіт */
   .title-work {
-    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-grey);
-
-   
+  }
+  .title-work{
+    margin-bottom: 72px;
   }
 
 
@@ -392,6 +392,7 @@ border-radius: 4px;
 .our-team-list {
   padding-top: 32px;
   padding-bottom: 32px;
+  
 }
 
 .subtitle-team {
@@ -412,7 +413,7 @@ font-weight: 500;
 }
 
 .team-list{
-  border-radius: 0px 0px 4px 4px;
+ border-radius: 0px 0px 4px 4px;
   background-color: var(--color-white)
 }
 
