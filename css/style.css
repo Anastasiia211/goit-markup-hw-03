@@ -239,6 +239,7 @@ section {
   gap: 24px;
   margin-bottom: 72px;
   justify-content: center;
+  padding: 24px 0 ;
 }
 .main-section{
   padding: 96px 0 120px;
@@ -288,8 +289,12 @@ padding: 12px 24px;
   color: #ffffff;
   cursor: pointer;
 }
+
 .button-list:hover,
-.button-list:focus:border: 1px solid transparent;
+.button-list:focus{
+  border: 1px solid transparent;
+}
+
 
 .items {
   color: var(--color-grey);
@@ -318,13 +323,14 @@ padding: 12px 24px;
 .about-company {
   display: flex;
   gap: 24px;
-   width: calc((100% - 72px) / 4); 
+  width: calc((100% - 72px) / 4);
 }
 
 
 
 .about-list:not(:last-child) {
   margin-right: 24px;
+  
   
 }
 .about-list{
