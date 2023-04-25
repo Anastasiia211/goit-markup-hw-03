@@ -103,7 +103,7 @@ section {
 .menu {
   display: flex;
   align-items: center;
-  padding: 24px 0 
+  padding: 24px 0 24px 
 }
 
 .logo {
@@ -320,7 +320,7 @@ padding: 12px 24px;
 .about-company {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+ 
 }
 
 
@@ -331,7 +331,7 @@ padding: 12px 24px;
   
 }
 .about-list{
-   width: 264px;
+   width: calc((100% - 72px) / 4);
   border: 1px solid #000000;
 }
 
