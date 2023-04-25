@@ -44,6 +44,10 @@ img {
   display: block;
 }
 
+button{
+  cursor: pointer;
+}
+
 /* Card set */
 .card-set {
   display: flex;
@@ -72,7 +76,7 @@ section {
   background-color: var(--color-white);
 }
 .container {
-  width: 1188px;
+  width: 1158px; 
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -99,11 +103,12 @@ section {
 .menu {
   display: flex;
   align-items: center;
-  padding-left: 0;
+  padding: 24px 0 
 }
 
 .logo {
-  margin-right: 77px;
+  margin-right: 76px;
+  
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
@@ -118,6 +123,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 /* Логотип */
@@ -162,6 +168,10 @@ section {
   letter-spacing: 0.02em;
   color: #434455;
   margin-left: auto;
+}
+
+.adress-item{
+   gap: 40px;
 }
 
 .adress-list {
@@ -209,10 +219,13 @@ section {
   color: #ffffff;
   background: #4d5ae5;
   display: block;
+  height: 56px;
   min-width: 169px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
+  border: none; 
+  
 }
 
 .button:hover,
@@ -228,6 +241,7 @@ section {
   justify-content: center;
 }
 .main-section{
+  padding: 96px 0 120px;
   
 }
 .
@@ -264,6 +278,7 @@ border: 1px solid #e7e9fc;
   border-radius: 4px;
   border: 1px solid #E7E9FC;
 border-radius: 4px;
+padding: 12px 24px;
 
 }
 
@@ -273,6 +288,8 @@ border-radius: 4px;
   color: #ffffff;
   cursor: pointer;
 }
+.button-list:hover,
+.button-list:focus:border: 1px solid transparent;
 
 .items {
   color: var(--color-grey);
@@ -301,6 +318,7 @@ border-radius: 4px;
 .about-company {
   display: flex;
   gap: 24px;
+   width: calc((100% - 72px) / 4); 
 }
 
 
@@ -349,6 +367,7 @@ border-radius: 4px;
 
   /* Приклади робіт */
   .title-work {
+     margin-bottom: 72px; 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11px;
@@ -356,13 +375,12 @@ border-radius: 4px;
     text-transform: capitalize;
     color: var(--color-grey);
   }
-  .title-work{
-    margin-bottom: 72px;
-  }
+
 
 
   .apply-work {
     padding-top: 0;
+   
   }
   .apply-list {
     display: flex;
@@ -390,8 +408,7 @@ border-radius: 4px;
   }
 }
 .our-team-list {
-  padding-top: 32px;
-  padding-bottom: 32px;
+ padding: 32px 16px 32px
   
 }
 
