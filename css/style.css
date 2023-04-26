@@ -344,6 +344,7 @@ section {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey);
+  text-align: center;
 }
 
 .our-team-list {
